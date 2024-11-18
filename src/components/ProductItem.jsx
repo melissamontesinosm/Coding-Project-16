@@ -1,6 +1,5 @@
 
-//Task 4:Create the ProductItem Component
-
+// Task 4: Create the ProductItem Component
 import React from 'react';
 
 // Component to display details of an individual product
