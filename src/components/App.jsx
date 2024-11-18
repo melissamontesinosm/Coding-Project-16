@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
+import ProductList from './ProductList.jsx'
+import AddProductForm from './AddProductForm.jsx'
 
+// Task 2: Create App Component
 function App() {
   const [products, setProducts] = useState([ // Defining a default list of products
     {id: 1,name: "Dysol Airway Multi-Styler Complete-Long", price: 599.99, description: "Strawberry Bronze/Blusk Pink"},
