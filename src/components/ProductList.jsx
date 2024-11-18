@@ -11,7 +11,8 @@ function ProductList({ products }) {
 
             {/* Render a ProductItem component for each product in the products array */}
             {products.map(product => (
-               
+                /* Task 5:Implement Keys in the ProductList Component*/
+                <ProductItem key={product.id} product={product} /> 
             ))}
         </div>
     );
